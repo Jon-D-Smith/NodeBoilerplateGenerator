@@ -12,9 +12,10 @@ const htmlTemp = `<!DOCTYPE html>
 </head>
 
 <body>
-<h1> Welcome to your boilerplate for your project: ${folderName}</h1>
-<p> Your css and Javascript files have already been linked, so just start coding!</p>
-
+<div class="container">
+        <h1> Welcome to your boilerplate for your project: ${folderName}</h1>
+        <p> Your css and Javascript files have already been linked, so just start coding!</p>
+    </div>
     <script src="app.js"></script>
 </body>
 
