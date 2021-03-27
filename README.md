@@ -5,20 +5,20 @@ This program will setup a basic boilerplate directory containing an index.html (
 
 Example:
 
-//First clone the project
+>First clone the project
 
 C:/JohnSmith/Desktop/ git clone https://github.com/Jon-D-Smith/NodeBoilerplateGenerator.git
 
-//Then choose the directory you wish to create your new project on. I will continue to use my Desktop directory in this example.
+>Then choose the directory you wish to create your new project on. I will continue to use my Desktop directory in this example.
 
 C:/JohnSmith/Desktop/ node ./NodeBoilerplateGenerator/boilerplate.js ProjectName
 
-// Please note, the "ProjectName" will need to be replaced by the actual name of your project. If this is left out, it will default to "Project"
+> Please note, the "ProjectName" will need to be replaced by the actual name of your project. If this is left out, it will default to "Project"
 
 C:/JohnSmith/Desktop/ cd ProjectName
 
 C:/JohnSmith/Desktop/ProjectName ls
-app.js index.html styles.css
+    app.js index.html styles.css
 
 
-//Once this is done, feel free to run index.html, or start coding right off the bat
+>Once this is done, feel free to run index.html, or start coding right off the bat
