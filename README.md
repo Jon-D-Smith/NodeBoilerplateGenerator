@@ -18,7 +18,7 @@ C:/JohnSmith/Desktop/ node ./NodeBoilerplateGenerator/boilerplate.js ProjectName
 C:/JohnSmith/Desktop/ cd ProjectName
 
 C:/JohnSmith/Desktop/ProjectName ls
-    app.js index.html styles.css
+//     app.js index.html styles.css
 
 
 >Once this is done, feel free to run index.html, or start coding right off the bat
