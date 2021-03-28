@@ -6,13 +6,13 @@ module.exports = folderName;
 //Require templates
 const htmlTemp = require('./templateHTML')
 const cssTemplate = require('./templateCSS')
-
+const jsTemp = require('./templateJS')
 
 //Put together the directory and files if it doesn't error out
 try {
     fs.mkdirSync(folderName);
     fs.writeFileSync(`${folderName}/index.html`, htmlTemp);
-    fs.writeFileSync(`${folderName}/app.js`, "");
+    fs.writeFileSync(`${folderName}/app.js`, jsTemp);
     fs.writeFileSync(`${folderName}/styles.css`, cssTemplate);
 } catch (e) {
     console.log("Something went wrong");
